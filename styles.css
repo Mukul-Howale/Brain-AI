@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.status {
+    text-align: center;
+    font-style: italic;
+}
+
+.scroll-box {
+    height: 100px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
