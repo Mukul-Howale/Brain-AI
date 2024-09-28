@@ -25,10 +25,6 @@
     }
   ],
   "browser_action": {
-    "default_popup": "popup/popup.html",
-    "default_icon": "assets/icon.png"
-  },
-  "icons": {
-    "48": "assets/icon.png"
+    "default_popup": "popup/popup.html"
   }
 }
